@@ -1,0 +1,19 @@
+[
+{
+  "modid": "GoldenThumb",
+  "name": "Golden Thumb",
+  "description": "Grow ores, soils, and more!",
+  "version": "1.5.2a133",
+  "credits": "Atomfusion, Spartan384 and BreakFormula",
+  "logoFile": "",
+  "mcversion": "1.5.2",
+  "url": "https://github.com/AtomFusion/LeadZotonic",
+  "updateUrl": "",
+  "authors": [ "Atomfusion" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "MinecraftForge"
+  ]
+}
+]
