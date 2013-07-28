@@ -7,7 +7,6 @@ import cpw.mods.fml.relauncher.SideOnly
 
 class GoldenTab(id: Int, label: String) extends CreativeTabs(id, label) {
   
-  @SideOnly(Side.CLIENT)
   var tabIndex : Int = 1
   
   @SideOnly(Side.CLIENT)

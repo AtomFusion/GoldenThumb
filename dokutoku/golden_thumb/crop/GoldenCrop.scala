@@ -31,8 +31,7 @@ with GoldenCropTrait {
   
   val germling = germ
   
-  @SideOnly(Side.CLIENT)
-  var IconList: ListBuffer[Icon] = ListBuffer()  
+  var IconList: ListBuffer[Icon] = ListBuffer()
   
   @SideOnly(Side.CLIENT)
   override def registerIcons(iReg: IconRegister) : Unit = {

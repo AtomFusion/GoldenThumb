@@ -63,6 +63,8 @@ import powercrystals.minefactoryreloaded.api.FarmingRegistry
 import dokutoku.golden_thumb.mod.java.PlantableSeed
 import dokutoku.golden_thumb.mod.java.HarvestablePlant
 import dokutoku.golden_thumb.crop.GoldenCrop
+import cpw.mods.fml.relauncher.SideOnly
+import cpw.mods.fml.relauncher.Side
 
 object GoldenThumb {
   @Instance("GoldenThumb")
@@ -219,9 +221,6 @@ class GoldenThumb {
   
   @PreInit
   def preInit(event: FMLPreInitializationEvent): Unit = {
-    /* Tab */
-    
-    val cTab = Reference.tab
     
     /* Config */
     

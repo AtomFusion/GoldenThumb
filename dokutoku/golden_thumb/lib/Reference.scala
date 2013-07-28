@@ -3,6 +3,8 @@ package dokutoku.golden_thumb.lib
 import net.minecraft.creativetab.CreativeTabs
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
+import cpw.mods.fml.relauncher.SideOnly
+import cpw.mods.fml.relauncher.Side
 
 object Reference {
 
@@ -12,7 +14,7 @@ object Reference {
   final val Depends = "required-after:Forge@[7.8.1.737,)"
     
   final val InvalidFingerprint = "Hey, user, somebody has tampered with this jar file!"
-    
+     
   val tab = new GoldenTab(CreativeTabs.getNextID(), "Golden Thumb")
   
   var stem: Item = null // Easy way to catch the stem ID

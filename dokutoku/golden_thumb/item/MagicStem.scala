@@ -14,6 +14,8 @@ import net.minecraft.block.Block
 import net.minecraftforge.liquids.LiquidStack
 import dokutoku.golden_thumb.mod.Integration
 import dokutoku.golden_thumb.util.Logger
+import cpw.mods.fml.relauncher.SideOnly
+import cpw.mods.fml.relauncher.Side
 
 class MagicStem(id: Int) extends Item(id) {
 
