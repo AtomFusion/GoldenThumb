@@ -41,7 +41,7 @@ public class HarvestablePlant implements IFactoryHarvestable {
 	@Override
 	public boolean canBeHarvested(World world,
 			Map<String, Boolean> harvesterSettings, int x, int y, int z) {
-		System.out.println("I'm returning: " + (world.getBlockMetadata(x, y, z) >= 7));
+		//System.out.println("I'm returning: " + (world.getBlockMetadata(x, y, z) >= 7));
 		return world.getBlockMetadata(x, y, z) >= 7;
 	}
 
