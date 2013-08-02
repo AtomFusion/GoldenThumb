@@ -113,9 +113,12 @@ with GoldenCropTrait {
     if(world.getBlockLightValue(x, y+1, z) >= 9)
     {
       var l = world.getBlockMetadata(x, y, z)
+      var chance = (25 / growthRate).toInt + 1
+      if(chance < 0)
+        chance = 0
       
       if(l < 7)
-	      if(rand.nextInt((25 / growthRate).toInt + 1) == 0)
+	      if(rand.nextInt(chance) == 0)
 	      {
 	        l += 1
 	        world.setBlockMetadataWithNotify(x, y, z, l, 2)
