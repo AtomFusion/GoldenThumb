@@ -114,8 +114,8 @@ with GoldenCropTrait {
     {
       var l = world.getBlockMetadata(x, y, z)
       var chance = (25 / growthRate).toInt + 1
-      if(chance < 0)
-        chance = 0
+      if(chance < 1)
+        chance = 1
       
       if(l < 7)
 	      if(rand.nextInt(chance) == 0)
